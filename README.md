@@ -13,45 +13,19 @@ This project performs comprehensive analysis of fully electric cars and implemen
 - **Statistical Analysis**: Deep dive into correlations and patterns
 
 ## Technologies Used
-- **Python**: Primary language (96.5%)
+- **Python**: Primary language
 - **Pandas**: Data manipulation and analysis
 - **NumPy**: Numerical computing
 - **Scikit-learn**: Machine learning algorithms
 - **Matplotlib & Seaborn**: Data visualization
 - **Jupyter Notebook**: Interactive analysis and documentation
-- **Cython**: Performance optimization (2.6%)
-- **C/C++**: Low-level optimizations
 
 ## Prerequisites
 - Python 3.8 or higher
 - Jupyter Notebook or JupyterLab
 - pip or conda package manager
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/nika131/Analysis-and-Price-Prediction-of-Fully-Electric-Cars-Using-Machine-Learning.git
-   cd Analysis-and-Price-Prediction-of-Fully-Electric-Cars-Using-Machine-Learning
-   ```
-
-2. Create a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. Install required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-1. Start Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-
-2. Open the analysis notebooks in order:
+Open the analysis notebooks in order:
    - `01_data_exploration.ipynb` - Initial data exploration
    - `02_data_cleaning.ipynb` - Data preprocessing and cleaning
    - `03_feature_engineering.ipynb` - Feature creation and selection
@@ -110,13 +84,6 @@ The best-performing model achieves:
 - Good generalization capability
 - Reliable price predictions for new EV models
 
-## Future Improvements
-- Incorporate real-time market data
-- Add time-series analysis for price trends
-- Implement advanced deep learning models
-- Create a web-based prediction interface
-- Add geolocation-based pricing factors
-
 ## Project Structure
 ```
 ├── data/                    # Dataset files
@@ -131,12 +98,3 @@ The best-performing model achieves:
 ├── requirements.txt        # Python dependencies
 └── README.md
 ```
-
-## Contributing
-Contributions are welcome! Please feel free to submit a pull request with improvements.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-For issues, questions, or suggestions, please open an issue on GitHub.
